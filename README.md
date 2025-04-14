@@ -1,17 +1,28 @@
-Projekt: Rysowanie wykresu funkcji w C#
-Opis
-Aplikacja napisana w języku C#, umożliwiająca rysowanie wykresu funkcji matematycznej. Użytkownik może określić zakres osi X, na podstawie którego automatycznie obliczany jest odpowiedni zakres osi Y. Dodatkowo istnieje możliwość ustawienia tytułu wykresu oraz włączenia lub wyłączenia linii siatki.
+# Projekt: Rysowanie wykresu funkcji w C#
 
-Funkcjonalności
-Wprowadzanie zakresu dla osi X
+##  Opis
 
-Automatyczne wyznaczanie zakresu osi Y na podstawie wartości funkcji
+Aplikacja desktopowa w języku **C#**, służąca do rysowania wykresu wybranej funkcji matematycznej.  
+Umożliwia użytkownikowi:
 
-Definiowanie tytułu wykresu
+- ustawienie **zakresu osi X**,
+- automatyczne wyznaczenie **zakresu osi Y** na podstawie wartości funkcji,
+- dodanie **tytułu wykresu**,
+- włączenie lub wyłączenie **siatki** na wykresie.
 
-Możliwość włączenia/wyłączenia siatki na wykresie
+Prosty i intuicyjny interfejs pozwala szybko wizualizować podstawowe funkcje matematyczne.
 
-Rysowanie wykresu wybranej funkcji (np. sinus, kwadratowa itd.)
-Język: C#
+##  Funkcjonalności
 
-Środowisko: .NET / Windows Forms 
+- 📌 Wprowadzanie minimalnej i maksymalnej wartości osi X  
+- 📈 Dynamiczne obliczanie wartości osi Y (na podstawie funkcji)  
+- 🏷️ Możliwość ustawienia tytułu wykresu  
+- 🔲 Przełącznik widoczności siatki na wykresie  
+
+##  Technologie
+
+- **Język:** C#  
+- **Środowisko:** .NET Framework / .NET Core  
+- **UI:** Windows Forms 
+
+![image](https://github.com/user-attachments/assets/cda3e7c4-d3bb-400a-8dcf-c1af405ea9b9)
